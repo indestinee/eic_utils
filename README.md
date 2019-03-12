@@ -1,18 +1,15 @@
-# Utils
+# iutils
 utils for python3
 
 ## requirement
-1. python3.x enviroment
-2. python3.x packages:
-```shell
-pip3 install os, pickle, json, sqlite3
-# remove line #4 in __init__.py 'from .database import DataBase' if you don't need database
-```
+1.  python3.x enviroment
+2.  python3.x packages:
+        pip3 install os, pickle, json, sqlite3
 ## usage
 ```bash
-$ git submodule add https://github.com/indestinee/utils
-$ git submodule update --init --recursive
+pip3 install iutils
 ```
+or see <a href="https://github.com/indestinee/iutils">here</a>
 
 ## components
 
@@ -22,6 +19,7 @@ $ git submodule update --init --recursive
 require <strong>sqlite</strong>
 #### Functions
 ```python
+from iutils import *
 def __init__(self, path, name, tables)
     ''' 
     @params:
@@ -107,6 +105,7 @@ def count(self, table_name, limitation=None)
 #### Example
 ```python
 # init 
+from iutils import *
 tables = [{
         'name': 'user',
         'attr': [{
@@ -154,6 +153,7 @@ print('id=3, return name only, dict:', data)
 black, red (r), green (g), yellow (y), blue (b), magenta, cyan, white (w)
 
 #### Example
+from iutils import cp
 ```python
 cp('(#[COLOR in Color List])[Your Sentence(#)]')
 cp('hi') 			# same as print('hi')
@@ -182,6 +182,7 @@ cp('', end='')
 ### class procedure
 #### Example
 ```python
+from iutils import procedure
 with procedure('waiting for 5 sec and overwrite the line', same_line=True) as p:
 	time.sleep(5)
 
