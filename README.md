@@ -1,4 +1,4 @@
-# iutils
+# ic_utils
 utils for python3
 
 ## requirement
@@ -7,9 +7,9 @@ utils for python3
         pip3 install os, pickle, json, sqlite3
 ## usage
 ```bash
-pip3 install iutils
+pip3 install ic_utils
 ```
-or see <a href="https://github.com/indestinee/iutils">here</a>
+or see <a href="https://github.com/indestinee/ic_utils">here</a>
 
 ## components
 
@@ -19,7 +19,7 @@ or see <a href="https://github.com/indestinee/iutils">here</a>
 require <strong>sqlite</strong>
 #### Functions
 ```python
-from iutils import *
+from ic_utils import *
 def __init__(self, path, name, tables)
     ''' 
     @params:
@@ -105,7 +105,7 @@ def count(self, table_name, limitation=None)
 #### Example
 ```python
 # init 
-from iutils import *
+from ic_utils import *
 tables = [{
         'name': 'user',
         'attr': [{
@@ -153,7 +153,7 @@ print('id=3, return name only, dict:', data)
 black, red (r), green (g), yellow (y), blue (b), magenta, cyan, white (w)
 
 #### Example
-from iutils import cp
+from ic_utils import cp
 ```python
 cp('(#[COLOR in Color List])[Your Sentence(#)]')
 cp('hi') 			# same as print('hi')
@@ -182,7 +182,7 @@ cp('', end='')
 ### class procedure
 #### Example
 ```python
-from iutils import procedure
+from ic_utils import procedure
 with procedure('waiting for 5 sec and overwrite the line', same_line=True) as p:
 	time.sleep(5)
 
