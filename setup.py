@@ -2,9 +2,9 @@ import setuptools
 
 setuptools.setup(
     name='eic_utils',
-      version='0.2',
+      version='0.3',
       description='Some Basic Utils',
-      url='http://github.com/indestinee/eic_utils',
+      url='http://github.com/indestinee/utils',
       author='indestinee',
       author_email='indestinee@gmail.com',
       packages=setuptools.find_packages(),
