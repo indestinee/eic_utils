@@ -1,10 +1,10 @@
 import setuptools
 
 setuptools.setup(
-    name='iutils',
-      version='0.1',
+    name='eic_utils',
+      version='0.2',
       description='Some Basic Utils',
-      url='http://github.com/indestinee/iutils',
+      url='http://github.com/indestinee/eic_utils',
       author='indestinee',
       author_email='indestinee@gmail.com',
       packages=setuptools.find_packages(),
