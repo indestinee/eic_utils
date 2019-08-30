@@ -5,7 +5,7 @@ with open("./README.md", "r") as fh:
 
 setuptools.setup(
     name='eic_utils',
-      version='1.2',
+      version='1.4',
       description='basic utils for python3',
       url='http://github.com/indestinee/utils',
       author='indestinee',
