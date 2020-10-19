@@ -1,5 +1,8 @@
 # eic\_utils
 Some Basic Utils for **pythonx 3**
+Move to **[https://github.com/indestinee/ec_tools](https://github.com/indestinee/ec_tools)** 
+
+
 
 ## requirement
 1. python3.x enviroment
